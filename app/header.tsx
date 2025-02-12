@@ -1,7 +1,9 @@
 'use client'
 
 import { useState, useRef, useEffect } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
+import { FiAlignRight } from "react-icons/fi";
+
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@/public/logo.svg";
@@ -98,7 +100,13 @@ const Navbar = () => {
                     Request Demo
                 </a>
                 <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-[#2A6171] focus:outline-none">
-                    {mobileMenuOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
+                    <svg fill="#2A6171" viewBox="0 0 20 20" className="w-6 h-6">
+                        <path
+                            fillRule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                            clipRule="evenodd"
+                        />
+                    </svg>
                 </button>
             </div>
             <div className={`fixed top-0 left-0 w-full h-full bg-white transform ${mobileMenuOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out z-40 md:hidden`}>
@@ -114,8 +122,9 @@ const Navbar = () => {
                     {Object.entries(dropdownItems).map(([key, items]) => (
                         <div key={key} className="pt-4">
                             <button className="w-full text-left text-black flex items-center justify-between uppercase hover:text-[#5699AD]"
-                                onClick={() => setMobileDropdownOpen(mobileDropdownOpen === key ? null : key)}>
-                                {key.toUpperCase()}
+                                onClick={() => setMobileDropdownOpen(mobileDropdownOpen === key ? null : key)}
+                            >
+                                {key.charAt(0).toUpperCase() + key.slice(1)}
                             </button>
                             {mobileDropdownOpen === key && (
                                 <div className="mt-2 px-5 rounded-lg">
