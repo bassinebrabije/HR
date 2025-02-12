@@ -12,7 +12,7 @@ export default function Home() {
       {/* Hero Content - Ensure Text is Visible */}
       <div className="relative z-10">
         <Hero />
-        <Slider />
+
       </div>
     </main>
 
