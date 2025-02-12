@@ -50,10 +50,9 @@ const HeroSection = () => {
                 </div>
                 <div className="mt-10 flow-root sm:mt-16">
                     <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-[#195262]/20 lg:-m-4 lg:rounded-2xl lg:p-4">
-
                         <Image src={Heroimg}
                             alt="Hero Image"
-                            className="rounded-md shadow-2xl ring-1 ring-[#195262]/20"
+                            className="rounded-md  ring-1 ring-[#195262]/20"
                             width={2432}
                             height={1442}
                             loading="lazy"
