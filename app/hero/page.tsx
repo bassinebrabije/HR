@@ -1,10 +1,10 @@
 'use client'
-import { useState } from "react";
+
 import Image from "next/image";
 import Heroimg from "@/public/Analytics.png";
 
 const HeroSection = () => {
-    const [email, setEmail] = useState("");
+
 
 
     return (
