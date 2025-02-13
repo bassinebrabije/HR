@@ -4,11 +4,8 @@ import Image from "next/image";
 import Heroimg from "@/public/Analytics.png";
 
 const HeroSection = () => {
-
-
-
     return (
-        <section className="py-12 sm:py-24">
+        <section className="py-12 sm:pt-24">
             <div className="mx-auto max-w-4xl px-6 lg:px-8">
                 <div className="mb-8 flex justify-center ">
                     <p className="relative rounded-full font-normal px-4 py-1.5 text-xs 2xl:text-sm leading-6 text-[#195262] ring-1 ring-inset  ring-[#195262]/20 ">
@@ -26,9 +23,9 @@ const HeroSection = () => {
                     <div className="mt-8 flex items-center justify-center gap-x-6">
                         <button
                             type="submit"
-                            className="group flex items-center justify-center rounded-xl bg-[#2A6171]  hover:shadow-lg hover:drop-shadow px-6 py-4 text-white transition"
+                            className="group flex items-center justify-center rounded-xl bg-[#2A6171]  hover:shadow-lg hover:drop-shadow px-4 py-4 text-white transition"
                         >
-                            <span className="group  flex w-full items-center justify-center rounded text-center font-medium">
+                            <span className="group text-sm sm:text-base  flex w-full items-center justify-center rounded text-center font-medium">
                                 Request Demo
                             </span>
                             <svg
@@ -48,11 +45,11 @@ const HeroSection = () => {
                         </button>
                     </div>
                 </div>
-                <div className="mt-10 flow-root sm:mt-16">
-                    <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-[#195262]/20 lg:-m-4 lg:rounded-2xl lg:p-4">
+                <div className="mt-5 flow-root">
+                    <div >
                         <Image src={Heroimg}
                             alt="Hero Image"
-                            className="rounded-md  ring-1 ring-[#195262]/20"
+                            className="rounded-md  "
                             width={2432}
                             height={1442}
                             loading="lazy"

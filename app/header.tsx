@@ -85,9 +85,9 @@ const Navbar = () => {
                                 {key.charAt(0).toUpperCase() + key.slice(1)}
                             </button>
                             {dropdownOpen === key && (
-                                <div className="absolute left-0 mt-5 w-[25rem] bg-white rounded-lg shadow-lg py-2 px-4 grid grid-cols-2">
+                                <div className="absolute left-0 mt-5 w-[30rem] bg-white rounded-lg shadow-lg py-2 px-4 grid grid-cols-2">
                                     {items.map((item, index) => (
-                                        <a key={index} href={item.href} className="block px-3 py-2 text-black hover:bg-gray-100 rounded-lg">
+                                        <a key={index} href={item.href} className="block text-sm px-3 py-2 text-black hover:bg-gray-100 rounded-lg">
                                             {item.name}
                                         </a>
                                     ))}

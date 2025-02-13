@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
 import Header from "./header";
 
+
 export const metadata: Metadata = {
   title: "Slashr - Award-winning HR system for all of your HRIS needs",
   description: "Slashr is the best HR system to manage all your HRIS needs, including payroll, employee records, and performance tracking.",
