@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
+
+
 const logos = [
     "/logo.png",
     "/logo.png",
@@ -44,7 +46,7 @@ export default function InfiniteSlider() {
             <section className="w-full h-[35rem]  flex justify-center items-center pt-12">
                 <div
                     className="relative  p-8 space-y-8 w-full h-full text-center bg-cover bg-center flex items-center justify-center"
-                    style={{ backgroundImage: "url('/slider/banner.png')" }}
+                    style={{ backgroundImage: "url('/slider/banner.webp')" }}
                 >
                     <div className="p-6  max-w-4xl">
                         <div className="space-y-10">
