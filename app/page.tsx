@@ -2,6 +2,8 @@ import Slider from "./slider/page";
 import Hero from "./hero/page";
 import Footer from "./footer";
 import Cta from './cta/page';
+import More from "./more/page";
+import Resources from "./resources/page";
 export default function Home() {
   return (
     <main className="pt-16 sm:pt-10 absolute inset-0 h-full w-full bg-transparent">
@@ -15,6 +17,8 @@ export default function Home() {
       <div className="relative z-10">
         <Hero />
         <Slider />
+        <More />
+        <Resources />
         <Cta />
         <Footer />
       </div>

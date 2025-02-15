@@ -5,16 +5,15 @@ import Image from "next/image";
 
 import Img from "@/public/hot-worker.jpg";
 
-export default function InfiniteSlider() {
+export default function HowSlasHR() {
     return (
         <>
-
             <section className="w-full h-auto flex justify-center items-center">
-                <div className="relative p-8 w-full h-full text-center bg-[#2b6171] flex items-center justify-center">
-                    <div className=" max-w-5xl w-full flex flex-col lg:flex-row items-center lg:items-center gap-8">
+                <div className="relative p-8 w-full h-full text-center bg-[#195262] flex items-center justify-center">
+                    <div className="max-w-5xl w-full flex flex-col lg:flex-row items-center lg:items-center gap-8">
                         {/* Text Section */}
                         <div className="text-center lg:text-left  flex-1">
-                            <h1 className="text-3xl md:text-4xl font-semibold text-white leading-[90px]">
+                            <h1 className="text-3xl md:text-4xl font-semibold text-white leading-[45px]">
                                 See how SlasHR HRIS helps you build an engaging company culture
                             </h1>
                             {/* Button Section */}

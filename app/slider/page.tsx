@@ -17,7 +17,7 @@ const logos = [
 export default function InfiniteSlider() {
     return (
         <>
-            <section className="py-8  relative overflow-hidden">
+            <section className="py-8 relative overflow-hidden">
                 <div className="mx-auto max-w-9xl px-4 text-center">
                     <h2 className="mb-8 lg:mb-20 text-xl font-bold tracking-tight leading-tight text-[#195262]">
                         1200 companies across various industries use SlasHR
@@ -50,7 +50,7 @@ export default function InfiniteSlider() {
                 >
                     <div className="p-6  max-w-4xl">
                         <div className="space-y-10">
-                            <h2 className="text-white font-heading font-bold text-4xl sm:text-5xl ">
+                            <h2 className="text-white font-heading font-bold text-4xl sm:text-5xl">
                                 Core HR and so much more
                             </h2>
                             <p className="text-base sm:text-xl text-white ">
