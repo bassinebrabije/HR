@@ -7,14 +7,17 @@ export default function Resources() {
     return (
         <>
             <section className="py-10">
-                <div className="mb-6  sm:mb-12  text-center ">
-                    <h1 className="text-4xl sm:text-5xl text-[#195262] font-bold" >Resources to take your HR to the next level
+                <div className="mb-6 sm:mb-12 text-center px-4">
+                    <h1 className="text-3xl sm:text-5xl lg:text-6xl text-[#195262] font-bold leading-tight">
+                        Resources to Take Your HR to the Next Level
                     </h1>
-                    <p className="max-w-4xl px-5 mx-auto mt-4 text-sm sm:text-xl text-gray-600 font-normal">DEI&B, managing remote teams, and streamlining HR on your mind? These resources are chock full of guidance from other HR leaders, the latest tips, and much more.
+                    <p className="max-w-3xl mx-auto mt-4 text-base sm:text-lg lg:text-xl text-gray-600 font-normal">
+                        DEI&B, managing remote teams, and streamlining HR on your mind? These resources are full of guidance from other HR leaders, the latest tips, and much more.
                     </p>
                 </div>
+
                 <div className="mx-auto grid max-w-screen-xl justify-center px-4 sm:grid-cols-2 sm:gap-4 sm:px-8 md:grid-cols-3">
-                    <article className="mx-auto my-4 flex w-full flex-col overflow-hidden rounded-2xl border border-gray-300 bg-white text-gray-900 transition hover:translate-y-2 hover:shadow-lg">
+                    <article className="mx-auto my-4 flex w-full flex-col overflow-hidden rounded-2xl border border-gray-300 bg-white text-gray-900 transition sm:hover:translate-y-2 sm:hover:shadow-lg">
                         <a href="#">
                             <Image src={goals} className="h-56 w-full object-cover" alt="Article 1 Image" />
                             <div className="flex-auto px-6 py-5">
@@ -45,7 +48,7 @@ export default function Resources() {
                         </a>
                     </article>
 
-                    <article className="mx-auto my-4 flex w-full flex-col overflow-hidden rounded-2xl border border-gray-300 bg-white text-gray-900 transition hover:translate-y-2 hover:shadow-lg">
+                    <article className="mx-auto my-4 flex w-full flex-col overflow-hidden rounded-2xl border border-gray-300 bg-white text-gray-900 transition sm:hover:translate-y-2 sm:hover:shadow-lg">
                         <a href="#">
                             <Image src={goals} className="h-56 w-full object-cover" alt="Article 2 Image" />
                             <div className="flex-auto px-6 py-5">
@@ -75,7 +78,7 @@ export default function Resources() {
                         </a>
                     </article>
 
-                    <article className="mx-auto my-4 flex w-full flex-col overflow-hidden rounded-2xl border border-gray-300 bg-white text-gray-900 transition hover:translate-y-2 hover:shadow-lg">
+                    <article className="mx-auto my-4 flex w-full flex-col overflow-hidden rounded-2xl border border-gray-300 bg-white text-gray-900 transition sm:hover:translate-y-2 sm:hover:shadow-lg">
                         <a href="#">
                             <Image src={goals} className="h-56 w-full object-cover" alt="Article 3 Image" />
                             <div className="flex-auto px-6 py-5">
