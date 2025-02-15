@@ -17,17 +17,17 @@ export default function Resources() {
                 </div>
 
                 <div className="mx-auto grid max-w-screen-xl justify-center px-4 sm:grid-cols-2 sm:gap-4 sm:px-8 md:grid-cols-3">
-                    <article className="mx-auto my-4 flex w-full flex-col overflow-hidden rounded-2xl border border-gray-300 bg-white text-gray-900 transition sm:hover:translate-y-2 sm:hover:shadow-lg">
+                    <article className="mx-auto my-4 flex w-full flex-col overflow-hidden rounded-2xl  bg-white transition sm:hover:translate-y-2 sm:hover:shadow-md">
                         <a href="#">
                             <Image src={goals} className="h-56 w-full object-cover" alt="Article 1 Image" />
-                            <div className="flex-auto px-6 py-5">
-                                <h3 className="mt-4 mb-3 text-xl font-semibold xl:text-2xl">How to calculate and improve your attrition rate</h3>
+                            <div className="flex-auto px-6 py-5 border rounded-b-2xl border-[#1952623a]">
+                                <h3 className="mt-4 mb-3 text-xl font-bold xl:text-2xl text-[#195262] ">How to calculate and improve your attrition rate</h3>
                                 <p className="mb-4 text-base text-gray-600">Use this article to learn everything you need to know about calculating and improving attrition…</p>
 
                                 <div className="mt-4 flex justify-left lg:justify-start">
                                     <button
                                         type="submit"
-                                        className="group flex items-center justify-center rounded-xl bg-[#195262] hover:shadow-lg hover:drop-shadow px-4 py-4 text-white transition"
+                                        className="group flex items-center justify-center rounded-xl bg-[#195262]  px-4 py-4 text-white transition"
                                     >
                                         <span className="group text-sm sm:text-base flex w-full items-center justify-center rounded text-center font-medium">
                                             Learn More
@@ -48,16 +48,16 @@ export default function Resources() {
                         </a>
                     </article>
 
-                    <article className="mx-auto my-4 flex w-full flex-col overflow-hidden rounded-2xl border border-gray-300 bg-white text-gray-900 transition sm:hover:translate-y-2 sm:hover:shadow-lg">
+                    <article className="mx-auto my-4 flex w-full flex-col overflow-hidden rounded-2xl  bg-white transition sm:hover:translate-y-2 sm:hover:shadow-md">
                         <a href="#">
                             <Image src={goals} className="h-56 w-full object-cover" alt="Article 2 Image" />
-                            <div className="flex-auto px-6 py-5">
-                                <h3 className="mt-4 mb-3 text-xl font-semibold xl:text-2xl">Top 5 HR goals for 2025</h3>
+                            <div className="flex-auto px-6 py-5 border rounded-b-2xl border-[#1952623a]">
+                                <h3 className="mt-4 mb-3 text-xl font-bold xl:text-2xl text-[#195262]">Top 5 HR goals for 2025</h3>
                                 <p className="mb-12 text-base text-gray-600 ">These five HR industry goals serve as guiding principles to help global HR leaders like…</p>
                                 <div className="mt-6 flex justify-left lg:justify-start">
                                     <button
                                         type="submit"
-                                        className="group flex items-center justify-center rounded-xl bg-[#195262] hover:shadow-lg hover:drop-shadow px-4 py-4 text-white transition"
+                                        className="group flex items-center justify-center rounded-xl bg-[#195262]  px-4 py-4 text-white transition"
                                     >
                                         <span className="group text-sm sm:text-base flex w-full items-center justify-center rounded text-center font-medium">
                                             Learn More
@@ -78,16 +78,16 @@ export default function Resources() {
                         </a>
                     </article>
 
-                    <article className="mx-auto my-4 flex w-full flex-col overflow-hidden rounded-2xl border border-gray-300 bg-white text-gray-900 transition sm:hover:translate-y-2 sm:hover:shadow-lg">
+                    <article className="mx-auto my-4 flex w-full flex-col overflow-hidden rounded-2xl  bg-white  transition sm:hover:translate-y-2 sm:hover:shadow-md">
                         <a href="#">
                             <Image src={goals} className="h-56 w-full object-cover" alt="Article 3 Image" />
-                            <div className="flex-auto px-6 py-5">
-                                <h3 className="mt-4 mb-3 text-xl font-semibold xl:text-2xl">A guide to HR metrics that matter</h3>
+                            <div className="flex-auto px-6 py-5 border rounded-b-2xl border-[#1952623a]">
+                                <h3 className="mt-4 mb-3 text-xl font-bold xl:text-2xl text-[#195262]">A guide to HR metrics that matter</h3>
                                 <p className="mb-4 text-base text-gray-600">Use HR metrics to take a data-driven approach to track and assess your progress and…</p>
                                 <div className="mt-4 flex justify-left lg:justify-start">
                                     <button
                                         type="submit"
-                                        className="group flex items-center justify-center rounded-xl bg-[#195262] hover:shadow-lg hover:drop-shadow px-4 py-4 text-white transition"
+                                        className="group flex items-center justify-center rounded-xl bg-[#195262]  px-4 py-4 text-white transition"
                                     >
                                         <span className="group text-sm sm:text-base flex w-full items-center justify-center rounded text-center font-medium">
                                             Learn More

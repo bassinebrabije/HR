@@ -1,10 +1,30 @@
+'use client';
+
+
+import { useEffect, useState } from "react";
+import Loader from "./lodaer/page"; // Import your loader
 import Slider from "./slider/page";
 import Hero from "./hero/page";
 import Footer from "./footer";
 import Cta from './cta/page';
 import More from "./more/page";
 import Resources from "./resources/page";
+
 export default function Home() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false); // Set loading to false after 3 seconds
+    }, 2000); // Adjust the delay time as needed
+
+    return () => clearTimeout(timer); // Clean up timer on unmount
+  }, []);
+
+  if (loading) {
+    return <Loader />;
+  }
+
   return (
     <main className="pt-16 sm:pt-10 absolute inset-0 h-full w-full bg-transparent">
       {/* Fading Background Overlay */}
@@ -23,8 +43,5 @@ export default function Home() {
         <Footer />
       </div>
     </main>
-
-
-
   );
 }
