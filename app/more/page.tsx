@@ -81,7 +81,7 @@ const More = () => {
                         <p className="mt-2 sm:mt-6 text-sm  sm:text-base text-gray-600">
                             HR is a key driver of business success, and SlasHR HRIS gives you the data to prove it.
                             SlasHR advanced analytics let you easily track important KPIs and impact on business
-                            goals. And, because Bob is used by all employees, you benefit from vast amounts of
+                            goals. And, because SlasHR is used by all employees, you benefit from vast amounts of
                             rich data, which means stronger insights for better decision making.
 
 
